@@ -30,6 +30,9 @@ public class TC01_StartApp {
         Thread.sleep(1500);
         softAssert = new SoftAssert();
 
+        MobileElement appname= driver.findElementByXPath("(//*[@class='android.widget.TextView'])[1]");
+        softAssert.assertTrue(appname.isDisplayed());
+
         driver.quit();
     }
 }
