@@ -1,4 +1,4 @@
-package Guru99;
+package Guru99.day01;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
@@ -9,6 +9,8 @@ import org.testng.asserts.SoftAssert;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 public class TC01_StartApp {
     SoftAssert softAssert;
@@ -26,7 +28,7 @@ public class TC01_StartApp {
         desiredCapabilities.setCapability(MobileCapabilityType.NO_RESET,"true");
         URL url = new URL("http://127.0.0.1:4723/wd/hub");
         AndroidDriver<MobileElement> driver = new AndroidDriver<MobileElement>(url, desiredCapabilities);
-
+        //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         Thread.sleep(1500);
         softAssert = new SoftAssert();
 
