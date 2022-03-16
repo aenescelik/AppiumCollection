@@ -6,7 +6,6 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
@@ -41,7 +40,7 @@ public class Driver {
                 desiredCapabilities.setCapability("appPackage","");
                 desiredCapabilities.setCapability("appActivity","");
                 appiumDriver = new AndroidDriver(appiumServerURL,desiredCapabilities);
-                appiumDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                appiumDriver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
             } else if (ConfigReader.getProperty("platformName").equals("ios")) {
                 //if you do not provide app path so you should use "bundleId"
                 desiredCapabilities.setCapability("bundleId",ConfigReader.getProperty("iosBundleId"));

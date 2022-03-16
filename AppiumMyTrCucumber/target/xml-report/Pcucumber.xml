@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="34.483">
+<testcase classname="API demos test" name="spenner dropdown list" time="34.287">
+<system-out><![CDATA[Given App telefonda acilsin.................................................passed
+When kullanici "API Demos" tiklasin.........................................passed
+When kullanici "Views" tiklasin.............................................passed
+When kullanici "Spinner" tiklasin...........................................passed
+And kullanici color menusunden "blue" secmeli...............................passed
+And kullanici planet menusunden "Saturn" secmeli............................passed
+]]></system-out>
+</testcase>
+</testsuite>

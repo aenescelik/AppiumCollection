@@ -48,8 +48,8 @@ public class FirstClass {
     }
 
     @When("kullanici kutiya yazi gondersin {string}")
-    public void kullanici_kutiya_yazi_gondersin(String string) {
-    element.preferenceDependenciesPage().textBox.sendKeys("Appium Demo");
+    public void kullanici_kutiya_yazi_gondersin(String yazilacakKelime) {
+    element.preferenceDependenciesPage().textBox.sendKeys(yazilacakKelime);
     }
 
     @Then("kullanici OK tiklasin")

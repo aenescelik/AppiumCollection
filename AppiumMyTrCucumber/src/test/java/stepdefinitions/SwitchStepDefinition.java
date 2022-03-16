@@ -59,5 +59,4 @@ public class SwitchStepDefinition {
         Assert.assertEquals("true",switchPage.secondSwitchButton.getAttribute("checked"));
     }
 
-
 }
