@@ -1,8 +1,13 @@
 package pages;
 
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import pages.android.*;
+import utilities.Driver;
+
+import java.time.Duration;
 
 public class AllPages {
+
 //parametresiz costructor olustur.
     public AllPages(){
     }
@@ -15,8 +20,17 @@ public class AllPages {
     private DragDropPage dragDropPage;
     private ViewsPage viewsPage;
     private DateWidgetsPage dateWidgetsPage;
+    private ExpandableListsPage expandableListsPage;
+    private SpinnerPage spinnerPage;
+
 
 // her page class icin public method olusturup obje olusturacagiz.
+    public SpinnerPage spinnerPage(){
+        if (spinnerPage == null) {
+            spinnerPage=new SpinnerPage();
+           }return spinnerPage;
+    }
+
 public APIDemosPage apiDemosPage(){
     if (apiDemosPage == null){
         apiDemosPage = new APIDemosPage();
@@ -69,6 +83,12 @@ public APIDemosPage apiDemosPage(){
             dateWidgetsPage=new DateWidgetsPage();
         }
         return dateWidgetsPage;
+    }
+    public ExpandableListsPage expandableListsPage(){
+        if (expandableListsPage==null){
+            expandableListsPage=new ExpandableListsPage();
+        }
+        return expandableListsPage;
     }
 
 }
