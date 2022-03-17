@@ -2,6 +2,9 @@ package pages;
 
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import pages.android.*;
+import pages.ios.AlertViewsPage;
+import pages.ios.IOSSwitchPage;
+import pages.ios.PickerViewPage;
 import utilities.Driver;
 
 import java.time.Duration;
@@ -22,6 +25,10 @@ public class AllPages {
     private DateWidgetsPage dateWidgetsPage;
     private ExpandableListsPage expandableListsPage;
     private SpinnerPage spinnerPage;
+    //======== burdan asagisi ios pageleri
+    private AlertViewsPage alertViewsPage;
+    private IOSSwitchPage iosSwitchPage;
+    private PickerViewPage pickerViewPage;
 
 
 // her page class icin public method olusturup obje olusturacagiz.
@@ -89,6 +96,25 @@ public APIDemosPage apiDemosPage(){
             expandableListsPage=new ExpandableListsPage();
         }
         return expandableListsPage;
+    }
+
+    public AlertViewsPage alertViewsPage(){
+        if (alertViewsPage == null){
+            alertViewsPage = new AlertViewsPage();
+        }
+        return alertViewsPage;
+    }
+    public IOSSwitchPage iosSwitchPage(){
+        if (iosSwitchPage == null){
+            iosSwitchPage = new IOSSwitchPage();
+        }
+        return iosSwitchPage;
+    }
+    public PickerViewPage pickerViewPage(){
+        if (pickerViewPage == null ){
+            pickerViewPage = new PickerViewPage();
+        }
+        return pickerViewPage;
     }
 
 }

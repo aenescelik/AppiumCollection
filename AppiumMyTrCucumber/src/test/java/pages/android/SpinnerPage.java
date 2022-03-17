@@ -33,6 +33,7 @@ public class SpinnerPage {
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Saturn']")
     public MobileElement selectedSaturn;
 
+    //tüm toast messagelerini ayni sekilde locate ediyoruz. birden fazla varsa sayiyla yapabiliriz.
     @AndroidFindBy(xpath = "//andorid.widget.Toast")
     public MobileElement toastMesaage;
 }

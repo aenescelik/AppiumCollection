@@ -3,17 +3,17 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-03-16T13:23:02.253Z",
+        "start_timestamp": "2022-03-16T13:34:22.546Z",
         "line": 3,
-        "name": "spenner dropdown list",
+        "name": "spinner dropdown list",
         "description": "",
-        "id": "api-demos-test;spenner-dropdown-list",
+        "id": "api-demos-test;spinner-dropdown-list",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8972000000,
+              "duration": 8873000000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 4751000000,
+              "duration": 4198000000,
               "status": "passed"
             },
             "line": 5,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 4938000000,
+              "duration": 4194000000,
               "status": "passed"
             },
             "line": 6,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 7470000000,
+              "duration": 7752000000,
               "status": "passed"
             },
             "line": 7,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 4111000000,
+              "duration": 4528000000,
               "status": "passed"
             },
             "line": 9,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 3988000000,
+              "duration": 6053000000,
               "status": "passed"
             },
             "line": 10,
