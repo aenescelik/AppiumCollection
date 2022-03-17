@@ -23,6 +23,7 @@ public class Class01 {
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME,"Android");
         desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"TCL 10L");
         desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11.0");
+
 //http://localhost:4723/wd/hub
         AndroidDriver<MobileElement> driver = new AndroidDriver<MobileElement>
                 (new URL("http://127.0.0.1:4723/wd/hub"),desiredCapabilities);
