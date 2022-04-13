@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="582360e8-bbe6-41ff-871e-0289c6feae4b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../AppiumMyWork/src/apps/WhatsApp_base.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumMyWork/src/test/java/Appium/classes1/HW02_WhatsAppMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumMyWork/src/test/java/utilities/AppiumBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumMyWork/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/src/test/java/InterviewQuestion/IQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumMyWork/src/test/java/InterviewQuestion/IQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes1/Class01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes1/Class02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes1/Class03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes1/Class04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes1/Class05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes1/Class05WithAppActivityPackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes1/Class06ChromeWebApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes1/Class07ChromeNativeApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes1/Class08UiAtomatorViwer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes1/Class09UiSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes1/Class10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes1/HW01_Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes2/Appium11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes2/Appium12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes2/Appium13UniqueElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes2/Appium14Scroll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes2/Appium15BrowserStackAndroid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes2/Appium16BrowserStackIOS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes2/AppiumBSSauceApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes2/AppiumIOSCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/Appium/classes2/AppiumSafari.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/EcommerceApp/ECommerce01Negative.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/EcommerceApp/ECommerce02Positive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/EcommerceApp/ECommerce03SepeteEkle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/EcommerceApp/ECommerce04FiyatiOnayla.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/EcommerceApp/ECommerce05MobileGestures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/EcommerceApp/ECommerce06WebApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/InterviewQuestion/IQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/InterviewQuestion/IQBrowserStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumMyWork/target/test-classes/utilities/ApiDemosBase.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27hduR1JxifZo8bgiUiuKwEpOvP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/JavaLambda" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="582360e8-bbe6-41ff-871e-0289c6feae4b" name="Changes" comment="" />
+      <created>1649776474887</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649776474887</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
