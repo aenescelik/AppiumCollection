@@ -83,8 +83,7 @@ public class IQ {
         multiply.click();
         minus.click();
         num1.click();
-        equal.click();
-        result = driver.findElementById("com.google.android.calculator:id/result_final").getText();
+        equal.click();        result = driver.findElementById("com.google.android.calculator:id/result_final").getText();
         System.out.println("-1 ile carptiktan sonraki sonuc "+result);
         //5th step
  /*
