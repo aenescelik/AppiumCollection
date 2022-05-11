@@ -15,7 +15,7 @@ public class MainPage {
     @AndroidFindBy(id = "com.google.android.apps.maps:id/mainmap_container")
     public MobileElement ownLocation;
 
-    @AndroidFindBy(xpath = "//android.widget.EditText[@content-desc='Search here']")
+    @AndroidFindBy(xpath = "//android.widget.EditText[@content-desc=\"Try petrol stations, cash machines\"]")
     public MobileElement searchTextBox;
 
     @AndroidFindBy(accessibility = "Voice search")
@@ -47,6 +47,9 @@ public class MainPage {
 
     @AndroidFindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Saved\"]")
     public MobileElement savedButton;
+
+    @AndroidFindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Contribute\"]")
+    public MobileElement contributeButton;
 
     @AndroidFindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Updates\"]")
     public MobileElement updatesButton;
